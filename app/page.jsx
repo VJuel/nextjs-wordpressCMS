@@ -5,8 +5,6 @@ import {getPostList} from '../lib/posts'
 export default async function Home() {
   // const allPosts = await getPostList();
 
-  console.log(allPosts);
-
   return (
     <main className="">
     <Hero/>
